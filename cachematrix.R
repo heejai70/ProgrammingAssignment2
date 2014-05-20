@@ -1,9 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## function : makeCacheMatrix
+## have 4 subfunctions
 ## setsolve, getsolve, set, get
-
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -19,10 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
+## function : cacheSolve
 ## Return a matrix that is the inverse of 'x'
+cacheSolve <- function(x, ...) {
     m <- x$getsolve()
     if(!is.null(m)) {
         message("getting cached data")
