@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## setsolve, getsolve, set, get
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -21,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+## Return a matrix that is the inverse of 'x'
     m <- x$getsolve()
     if(!is.null(m)) {
         message("getting cached data")
