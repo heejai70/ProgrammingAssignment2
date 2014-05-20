@@ -1,9 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 ## function : makeCacheMatrix
-## have 4 subfunctions
-## setsolve, getsolve, set, get
+## have 4 inner functions(setsolve, getsolve, set, get)
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
